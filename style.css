@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(42, 42, 225);
+}
+
+nav button {
+    height: 100%;
+    width: 100px;
+    background-color: rgb(42, 42, 225);
+    border: none;
+    color: white;
+}
