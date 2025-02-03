@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(42, 42, 225);
+}
+
+nav button {
+    height: 100%;
+    width: 100px;
+    background-color: rgb(42, 42, 225);
+    border: none;
+    color: white;
+}
+
+nav button:hover {
+    background-color: rgb(107, 107, 219);
+}
+
+#contactBtn:hover+.contactOptions {
+    display: flex;
+}
+
+.contactOptions {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+}
+
+.contactOptions button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: rgb(42, 42, 225);
+    color: white;
+}
+
+.contactOptions button:hover {
+    background-color: rgb(107, 107, 219);
+}
